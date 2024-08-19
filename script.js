@@ -6,20 +6,20 @@ var data = [
     { type: 'quiz', color: '#1b87e6', text: 'PS5' },
     { type: 'quiz', color: '#1b3380', text: 'Tablet' },
     { color: '#1b87e6', text: 'Juntar la mesa' },
-    { type: 'quiz', color: '#1b3380', text: 'iphone.' },
+    { type: 'quiz', color: '#1b3380', text: 'iphone' },
     { type: 'quiz', color: '#1b87e6', text: 'Monopatin E' },
     { color: '#1b3380', text: 'Limpiar el baño' },
     { type: 'quiz', color: '#1b87e6', text: 'PC Gamer' },
     { color: '#1b3380', text: 'Limpiar el piso' },
     { type: 'quiz', color: '#1b87e6', text: 'Pelota' },
     { type: 'quiz', color: '#1b3380', text: 'Ropa' },
-    { type: 'quiz', color: '#1b87e6', text: 'Camiseta' },
+    { color: '#1b87e6', text: 'Barrer la vereda' },
     { type: 'replay', color: '#1b3380', text: 'Jugar de nuevo', ikon: 'replay' },
   ];
   
   var flag = false;
   
-  var tareas = ['Juntar la mesa', 'Limpiar el baño', 'Limpiar el piso'];
+  var tareas = ['Juntar la mesa', 'Limpiar el baño', 'Limpiar el piso', 'Jugar de nuevo', 'Barrer la vereda'];
   
   var RouletteWheel = function (el, items) {
     this.$el = $(el);
