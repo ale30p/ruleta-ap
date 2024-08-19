@@ -217,7 +217,11 @@ var data = [
   
   function toggleFlag() {
     flag = !flag;
-    console.log(flag);
+    if (flag) {
+      $('h1').text('Prueba tu suerte,');
+    } else {
+      $('h1').text('Prueba tu suerte.');
+    }
   }
   
   function goFullScreen() {
