@@ -11,20 +11,25 @@
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <h1 style="text-align: center; color: #1b3380" onclick="toggleFlag()">
-      ¡Prueba tu suerte!
-    </h1>
-    <div class="roulette">
-      <div class="spinner"></div>
-      <div class="shadow"></div>
-      <div class="markers">
-        <div class="triangle"></div>
-      </div>
-      <div class="button">
-        <span>Girar</span>
-      </div>
-    </div>
-    <div style="text-align: center; color: #1b3380" onclick="goFullScreen()">Pantalla Completa</button>
+     
+       <div style="display: flex; align-items: center; height: 100vh; justify-content: center;">
+        <h1 style="text-align: center; color: #1b3380" onclick="toggleFlag()">
+          ¡Prueba tu suerte!
+        </h1>
+        <div style="width: 40%; position: relative;">
+          <div class="roulette">
+            <div class="spinner"></div>
+            <div class="shadow"></div>
+            <div class="markers">
+              <div class="triangle"></div>
+            </div>
+            <div class="button">
+              <span>Girar</span>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div style="text-align: center; color: #1b3380" onclick="goFullScreen()">Pantalla Completa</button>
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
